@@ -1,12 +1,12 @@
 <Document>
   <FileCoherence>1</FileCoherence>
-  <Version>3.8.7</Version>
+  <Version>3.8.4.6</Version>
   <charset>utf-8</charset>
-  <ApplicationBuildDateTime>Jun  3 2014 12:16:00</ApplicationBuildDateTime>
-  <Copyright>Copyright (c) 2012 Vernier Software &#38; Technology and its licensers</Copyright>
+  <ApplicationBuildDateTime>Aug 29 2014 10:43:59</ApplicationBuildDateTime>
+  <Copyright>Copyright (c) 2010 Vernier Software &#38; Technology and its licensers</Copyright>
   <FileName>tanget graph (2).cmbl</FileName>
   <FileIDString>10/3/2015 21:01:30Your name here993819892</FileIDString>
-  <CreatorOS>2</CreatorOS>
+  <CreatorOS>3</CreatorOS>
   <CreatorApp>1</CreatorApp>
   <AbsoluteVersion>1</AbsoluteVersion>
   <Radians>1</Radians>
@@ -21,13 +21,13 @@
   <GraphMatchNumSections>0</GraphMatchNumSections>
   <Stationery>0</Stationery>
   <CreationDateTime>10/3/2015 21:01:30</CreationDateTime>
-  <ModifiedDateTime>10/5/2015 09:59:30</ModifiedDateTime>
-  <PageBounds>0 0 13.2916666667 9.22916666667</PageBounds>
-  <ScreenResolution>0 0 1279 1023</ScreenResolution>
+  <ModifiedDateTime>10/08/15 19:40</ModifiedDateTime>
+  <PageBounds>0 0 8.88888888889 4.32222222222</PageBounds>
+  <ScreenResolution>0 0 640 480</ScreenResolution>
   <MathType>0</MathType>
   <AllowOptionsDialogs>1</AllowOptionsDialogs>
   <AllowAutoCurveFit>1</AllowAutoCurveFit>
-  <ReplayWindowPosition>0 100 162 364 305 1</ReplayWindowPosition>
+  <ReplayWindowPosition>0 0 0 348 156 1</ReplayWindowPosition>
   <ReplayWindowSpeed>1</ReplayWindowSpeed>
   <ReplayWindowRepeat>0</ReplayWindowRepeat>
   <SensorConflictEnabled>1</SensorConflictEnabled>
@@ -48,41 +48,12 @@
     <PageGraphPaper>0 </PageGraphPaper>
     <PageGraphPaperLineSpacing>0.25 </PageGraphPaperLineSpacing>
     <PageGraphPaperLineColor>0x8484 0x7070 0xffff| 0xffff 0xffffffff</PageGraphPaperLineColor>
-    <PageReplayWindowPosition>0 100 162 364 305</PageReplayWindowPosition>
-    <PageTable>
-      <ID>107 </ID>
-      <BroadcastTo>0 </BroadcastTo>
-      <Visible>1</Visible>
-      <Bounds>0.0140735294118 0.0158214285714 2.88916423529 9.2133452381 </Bounds>
-      <SubordinateToID>0</SubordinateToID>
-      <SubordinateOffset>0 0</SubordinateOffset>
-      <BackgroundTransparent>0</BackgroundTransparent>
-      <BackgroundColor>0xdada 0xdada 0xdada| 0xffff 0xffffffff</BackgroundColor>
-      <AddNewData>1</AddNewData>
-      <Locked>0</Locked>
-      <AutoCreated>0</AutoCreated>
-      <GraphLinkedIDs>0 </GraphLinkedIDs>
-      <YLinkedIDs>0 </YLinkedIDs>
-      <Font>
-        <Size> 12 </Size>
-        <Justification> 2 </Justification>
-        <VerticalJustification> 0 </VerticalJustification>
-        <Styles> 0 0 0 0 0 0 </Styles>
-        <Family> 3 </Family>
-        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>
-        <Name>Arial</Name>
-        <Rotation>0</Rotation>
-      </Font>
-      <TableColumn> 102 1.00078431373 </TableColumn>
-      <TableColumn> 104 1.00078431373 </TableColumn>
-      <StartIndex> 0 </StartIndex>
-      <DisplayBlackAndWhite> 0 </DisplayBlackAndWhite>
-    </PageTable>
+    <PageReplayWindowPosition>0 0 0 348 156</PageReplayWindowPosition>
     <PageGraphCartesian>
       <ID>106 </ID>
       <BroadcastTo>1 120 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>2.92200247059 0.0210952380952 13.2729019608 9.20807142857 </Bounds>
+      <Bounds>1.95410823529 0.00987936507934 8.87633986927 4.31234285714 </Bounds>
       <SubordinateToID>0</SubordinateToID>
       <SubordinateOffset>0 0</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
@@ -99,7 +70,7 @@
         <Styles> 0 0 0 0 0 0 </Styles>
         <Family> 3 </Family>
         <Color>0x0 0x0 0x0| 0xffff 0x0</Color>
-        <Name>Arial</Name>
+        <Name>Sans</Name>
         <Rotation>0</Rotation>
       </Font>
       <GraphTitle></GraphTitle>
@@ -117,7 +88,6 @@
       <LogRightYAxis>0</LogRightYAxis>
       <GraphShowTraceErrorBars>1</GraphShowTraceErrorBars>
       <GraphShowBaseErrorBars>1</GraphShowBaseErrorBars>
-      <GraphShowUncertaintyBoxes>0</GraphShowUncertaintyBoxes>
       <GraphConnectLines>0</GraphConnectLines>
       <GraphBarGraph>0</GraphBarGraph>
       <BinGraphStackColumns>0</BinGraphStackColumns>
@@ -155,9 +125,9 @@
       <ID>120 </ID>
       <BroadcastTo>0 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>4.79847305882 2.13061904762 6.88677969945 3.24421279762 </Bounds>
+      <Bounds>3.20901019607 0.997815873014 4.35029686274 1.64066031746 </Bounds>
       <SubordinateToID>106</SubordinateToID>
-      <SubordinateOffset>1.87647058824 2.10952380952</SubordinateOffset>
+      <SubordinateOffset>1.25490196078 0.987936507934</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
       <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0xffffffff</BackgroundColor>
       <AddNewData>0</AddNewData>
@@ -172,7 +142,7 @@
         <Styles> 0 0 0 0 0 0 </Styles>
         <Family> 3 </Family>
         <Color>0x0 0x0 0x0| 0xffff 0x0</Color>
-        <Name>Arial</Name>
+        <Name>Sans</Name>
         <Rotation>0</Rotation>
       </Font>
       <GUIHelperRangeMin>1</GUIHelperRangeMin>
@@ -192,6 +162,35 @@
       <ManualCurveFitIncrements>2 0.1 0.1 </ManualCurveFitIncrements>
       <ManualCurveFitShowRMSE>1</ManualCurveFitShowRMSE>
     </PageHelperDataCurveFit>
+    <PageTable>
+      <ID>107 </ID>
+      <BroadcastTo>0 </BroadcastTo>
+      <Visible>1</Visible>
+      <Bounds>0.00941176470588 0.00740952380951 1.93214745097 4.31481269841 </Bounds>
+      <SubordinateToID>0</SubordinateToID>
+      <SubordinateOffset>0 0</SubordinateOffset>
+      <BackgroundTransparent>0</BackgroundTransparent>
+      <BackgroundColor>0xdada 0xdada 0xdada| 0xffff 0xffffffff</BackgroundColor>
+      <AddNewData>1</AddNewData>
+      <Locked>0</Locked>
+      <AutoCreated>0</AutoCreated>
+      <GraphLinkedIDs>0 </GraphLinkedIDs>
+      <YLinkedIDs>0 </YLinkedIDs>
+      <Font>
+        <Size> 12 </Size>
+        <Justification> 2 </Justification>
+        <VerticalJustification> 0 </VerticalJustification>
+        <Styles> 0 0 0 0 0 0 </Styles>
+        <Family> 3 </Family>
+        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>
+        <Name>Sans</Name>
+        <Rotation>0</Rotation>
+      </Font>
+      <TableColumn> 102 0.669281045753 </TableColumn>
+      <TableColumn> 104 0.669281045753 </TableColumn>
+      <StartIndex> 0 </StartIndex>
+      <DisplayBlackAndWhite> 0 </DisplayBlackAndWhite>
+    </PageTable>
   </Page>
   <CurrentPageIndex>0</CurrentPageIndex>
   <DataSet>
@@ -200,7 +199,6 @@
     <Visible>1</Visible>
     <DataSetName>Data Set</DataSetName>
     <DataSetComments></DataSetComments>
-    <DataSetPosition>0</DataSetPosition>
     <DataSetSourceName></DataSetSourceName>
     <DataSetShowInDataBrowser>1</DataSetShowInDataBrowser>
     <DataSetHistogram>0</DataSetHistogram>
@@ -219,17 +217,17 @@
     </Metadata>
     <DataColumn>
       <ID>102 </ID>
-      <BroadcastTo>3 17 106 107 </BroadcastTo>
+      <BroadcastTo>2 106 107 </BroadcastTo>
       <Visible>1</Visible>
-      <DataObjectName>X</DataObjectName>
-      <DataObjectShortName>x</DataObjectShortName>
+      <DataObjectName>Clock Reading</DataObjectName>
+      <DataObjectShortName>t</DataObjectShortName>
       <DataObjectColor>0x0 0x0 0x0| 0xffff 0x2e</DataObjectColor>
       <DataObjectDataSource>0</DataObjectDataSource>
       <DataObjectPrecisionDecimal>1</DataObjectPrecisionDecimal>
-      <DataObjectPrecision>2</DataObjectPrecision>
+      <DataObjectPrecision>0</DataObjectPrecision>
       <DataObjectAutomaticDecimal>1</DataObjectAutomaticDecimal>
       <DataObjectThickLines>0</DataObjectThickLines>
-      <ColumnUnits></ColumnUnits>
+      <ColumnUnits>s</ColumnUnits>
       <ColumnProtected>0</ColumnProtected>
       <ColumnUserEditable>1</ColumnUserEditable>
       <ColumnTreatAsText>0</ColumnTreatAsText>
@@ -276,17 +274,17 @@
     </DataColumn>
     <DataColumn>
       <ID>104 </ID>
-      <BroadcastTo>3 17 106 107 </BroadcastTo>
+      <BroadcastTo>2 106 107 </BroadcastTo>
       <Visible>1</Visible>
-      <DataObjectName>Y</DataObjectName>
-      <DataObjectShortName>y</DataObjectShortName>
+      <DataObjectName>Velocity</DataObjectName>
+      <DataObjectShortName>V</DataObjectShortName>
       <DataObjectColor>0xffff 0x0 0x3333| 0xffff 0xffffffff</DataObjectColor>
       <DataObjectDataSource>0</DataObjectDataSource>
       <DataObjectPrecisionDecimal>1</DataObjectPrecisionDecimal>
       <DataObjectPrecision>2</DataObjectPrecision>
       <DataObjectAutomaticDecimal>1</DataObjectAutomaticDecimal>
       <DataObjectThickLines>0</DataObjectThickLines>
-      <ColumnUnits></ColumnUnits>
+      <ColumnUnits>m/s</ColumnUnits>
       <ColumnProtected>0</ColumnProtected>
       <ColumnUserEditable>1</ColumnUserEditable>
       <ColumnTreatAsText>0</ColumnTreatAsText>
@@ -338,7 +336,6 @@
     <Visible>1</Visible>
     <DataSetName>&#38;&#38;^% CurveFitFunctions %^&#38;&#38;</DataSetName>
     <DataSetComments></DataSetComments>
-    <DataSetPosition>1</DataSetPosition>
     <DataSetSourceName></DataSetSourceName>
     <DataSetShowInDataBrowser>0</DataSetShowInDataBrowser>
     <DataSetHistogram>0</DataSetHistogram>
@@ -373,7 +370,7 @@
       <FunctionModelLinear>0</FunctionModelLinear>
       <FunctionModelType>1</FunctionModelType>
       <FunctionCoefficientArray>2 20.26 -13.78 </FunctionCoefficientArray>
-      <FunctionCoefficientUncertaintyArray>2 3.41000488758 11.3097067454 </FunctionCoefficientUncertaintyArray>
+      <FunctionCoefficientUncertaintyArray>2 1e+30 1e+30 </FunctionCoefficientUncertaintyArray>
       <FunctionModelInvalidDataFlags>0</FunctionModelInvalidDataFlags>
       <FunctionModelParameterNames></FunctionModelParameterNames>
       <FunctionModelTimeOffset>0</FunctionModelTimeOffset>
@@ -397,7 +394,7 @@
       <FunctionModelLinear>0</FunctionModelLinear>
       <FunctionModelType>1</FunctionModelType>
       <FunctionCoefficientArray>2 4.43514285714 6.20047619048 </FunctionCoefficientArray>
-      <FunctionCoefficientUncertaintyArray>2 1.08309655602 3.27923767135 </FunctionCoefficientUncertaintyArray>
+      <FunctionCoefficientUncertaintyArray>2 1e+30 1e+30 </FunctionCoefficientUncertaintyArray>
       <FunctionModelInvalidDataFlags>0</FunctionModelInvalidDataFlags>
       <FunctionModelParameterNames></FunctionModelParameterNames>
       <FunctionModelTimeOffset>0</FunctionModelTimeOffset>
@@ -422,6 +419,30 @@
       <FunctionModelType>1</FunctionModelType>
       <FunctionCoefficientArray>2 4.27 7.65 </FunctionCoefficientArray>
       <FunctionCoefficientUncertaintyArray>2 0.0136626010213 0.0453137212479 </FunctionCoefficientUncertaintyArray>
+      <FunctionModelInvalidDataFlags>0</FunctionModelInvalidDataFlags>
+      <FunctionModelParameterNames></FunctionModelParameterNames>
+      <FunctionModelTimeOffset>0</FunctionModelTimeOffset>
+      <FunctionModelTimeOffsetValue>0</FunctionModelTimeOffsetValue>
+    </FunctionModel>
+    <FunctionModel>
+      <ID>332 </ID>
+      <BroadcastTo>0 </BroadcastTo>
+      <Visible>1</Visible>
+      <DataObjectName>At</DataObjectName>
+      <DataObjectShortName>Fit</DataObjectShortName>
+      <DataObjectColor>0x0 0x0 0x0| 0xffff 0x2e</DataObjectColor>
+      <DataObjectDataSource>0</DataObjectDataSource>
+      <DataObjectPrecisionDecimal>0</DataObjectPrecisionDecimal>
+      <DataObjectPrecision>4</DataObjectPrecision>
+      <DataObjectAutomaticDecimal>0</DataObjectAutomaticDecimal>
+      <DataObjectThickLines>0</DataObjectThickLines>
+      <FunctionModelPower>1</FunctionModelPower>
+      <FunctionModelDegree>1</FunctionModelDegree>
+      <FunctionModelString>A*x</FunctionModelString>
+      <FunctionModelLinear>0</FunctionModelLinear>
+      <FunctionModelType>0</FunctionModelType>
+      <FunctionCoefficientArray>1 1 </FunctionCoefficientArray>
+      <FunctionCoefficientUncertaintyArray>1 0 </FunctionCoefficientUncertaintyArray>
       <FunctionModelInvalidDataFlags>0</FunctionModelInvalidDataFlags>
       <FunctionModelParameterNames></FunctionModelParameterNames>
       <FunctionModelTimeOffset>0</FunctionModelTimeOffset>
