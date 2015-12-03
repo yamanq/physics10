@@ -4,8 +4,8 @@
   <charset>utf-8</charset>
   <ApplicationBuildDateTime>Aug 29 2014 10:43:59</ApplicationBuildDateTime>
   <Copyright>Copyright (c) 2010 Vernier Software &#38; Technology and its licensers</Copyright>
-  <FileName>penny lab.cmbl</FileName>
-  <FileIDString>11/4/2015 21:01:05Your name here1425316258</FileIDString>
+  <FileName>Gravity.cmbl</FileName>
+  <FileIDString>11/12/15 10:38yaman18782555081894641856</FileIDString>
   <CreatorOS>3</CreatorOS>
   <CreatorApp>1</CreatorApp>
   <AbsoluteVersion>1</AbsoluteVersion>
@@ -20,8 +20,8 @@
   <GraphMatchUseQuadratic>1</GraphMatchUseQuadratic>
   <GraphMatchNumSections>0</GraphMatchNumSections>
   <Stationery>0</Stationery>
-  <CreationDateTime>11/4/2015 21:01:05</CreationDateTime>
-  <ModifiedDateTime>11/06/15 10:53</ModifiedDateTime>
+  <CreationDateTime>11/12/15 10:38</CreationDateTime>
+  <ModifiedDateTime>11/12/15 10:55</ModifiedDateTime>
   <PageBounds>0 0 8.88888888889 4.32222222222</PageBounds>
   <ScreenResolution>0 0 640 480</ScreenResolution>
   <MathType>0</MathType>
@@ -42,22 +42,22 @@
     <BroadcastTo>0 </BroadcastTo>
     <Visible>1</Visible>
     <PageTitle></PageTitle>
-    <PageColor>0xcccc 0xcccc 0xffff| 0xffff 0xffffffff</PageColor>
+    <PageColor>0xcccc 0xcccc 0xffff| 0xffff 0x1d</PageColor>
     <PageDisplayPageInfo>0 </PageDisplayPageInfo>
     <PagePageInfo></PagePageInfo>
     <PageGraphPaper>0 </PageGraphPaper>
     <PageGraphPaperLineSpacing>0.25 </PageGraphPaperLineSpacing>
-    <PageGraphPaperLineColor>0x8484 0x7070 0xffff| 0xffff 0xffffffff</PageGraphPaperLineColor>
+    <PageGraphPaperLineColor>0x8484 0x7070 0xffff| 0xffff 0x1e</PageGraphPaperLineColor>
     <PageReplayWindowPosition>0 0 0 348 156</PageReplayWindowPosition>
     <PageGraphCartesian>
       <ID>106 </ID>
-      <BroadcastTo>1 112 </BroadcastTo>
+      <BroadcastTo>2 112 115 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>1.95410675381 0.00987936507934 8.87633986927 4.31234285714 </Bounds>
+      <Bounds>2.11797777778 0.0082 8.88068888889 4.31402222222 </Bounds>
       <SubordinateToID>0</SubordinateToID>
       <SubordinateOffset>0 0</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
-      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0xffffffff</BackgroundColor>
+      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0x0</BackgroundColor>
       <AddNewData>0</AddNewData>
       <Locked>0</Locked>
       <AutoCreated>1</AutoCreated>
@@ -73,7 +73,7 @@
         <Name>Sans</Name>
         <Rotation>0</Rotation>
       </Font>
-      <GraphTitle>Drop Height vs Water Droplets Held</GraphTitle>
+      <GraphTitle></GraphTitle>
       <GraphTitleColor>0x0 0x0 0x0| 0xffff 0x2e</GraphTitleColor>
       <GraphShowPoints>0</GraphShowPoints>
       <GraphInterpolate>0</GraphInterpolate>
@@ -82,7 +82,7 @@
       <GraphShowCursorStatus>1</GraphShowCursorStatus>
       <GraphShowCursorDelta>1</GraphShowCursorDelta>
       <GraphPlotBaseColumnID>102 </GraphPlotBaseColumnID>
-      <GraphPlotTraceIDPairs>2 102 104 102 114 </GraphPlotTraceIDPairs>
+      <GraphPlotTraceIDPairs>3 102 104 102 113 102 116 </GraphPlotTraceIDPairs>
       <LogXAxis>0</LogXAxis>
       <LogYAxis>0</LogYAxis>
       <LogRightYAxis>0</LogRightYAxis>
@@ -93,9 +93,9 @@
       <BinGraphStackColumns>0</BinGraphStackColumns>
       <GraphShowPointProtectors>1</GraphShowPointProtectors>
       <GraphMajorTickStyle>1</GraphMajorTickStyle>
-      <GraphMajorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0xffffffff</GraphMajorTickColor>
+      <GraphMajorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0x2b</GraphMajorTickColor>
       <GraphMinorTickStyle>0</GraphMinorTickStyle>
-      <GraphMinorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0xffffffff</GraphMinorTickColor>
+      <GraphMinorTickColor>0xc0c0 0xc0c0 0xc0c0| 0xffff 0x2b</GraphMinorTickColor>
       <GraphPlotXAutoscale>3</GraphPlotXAutoscale>
       <GraphPlotYAutoscale>3</GraphPlotYAutoscale>
       <GraphPlotDoubleYAutoscale>3</GraphPlotDoubleYAutoscale>
@@ -105,31 +105,31 @@
       <GraphPlotXAutoscaleHint>0</GraphPlotXAutoscaleHint>
       <GraphPlotYAutoscaleHint>0</GraphPlotYAutoscaleHint>
       <GraphPlotDoubleYAutoscaleHint>0</GraphPlotDoubleYAutoscaleHint>
-      <GraphPlotXMin>-1</GraphPlotXMin>
-      <GraphPlotXMax>10</GraphPlotXMax>
+      <GraphPlotXMin>0.002</GraphPlotXMin>
+      <GraphPlotXMax>0.022</GraphPlotXMax>
       <GraphPlotXTicksRotatedAngle>0</GraphPlotXTicksRotatedAngle>
       <ShowAllValuesAsMajorTicks>0</ShowAllValuesAsMajorTicks>
-      <GraphPlotYMin>0</GraphPlotYMin>
-      <GraphPlotYMax>48</GraphPlotYMax>
-      <GraphPlotDefaultXMin>-1</GraphPlotDefaultXMin>
-      <GraphPlotDefaultXMax>10</GraphPlotDefaultXMax>
+      <GraphPlotYMin>0.1</GraphPlotYMin>
+      <GraphPlotYMax>2.1</GraphPlotYMax>
+      <GraphPlotDefaultXMin>0</GraphPlotDefaultXMin>
+      <GraphPlotDefaultXMax>100</GraphPlotDefaultXMax>
       <GraphPlotDefaultYMin>0</GraphPlotDefaultYMin>
-      <GraphPlotDefaultYMax>48</GraphPlotDefaultYMax>
+      <GraphPlotDefaultYMax>100</GraphPlotDefaultYMax>
       <GraphPlotXLabel></GraphPlotXLabel>
       <GraphPlotYLabel></GraphPlotYLabel>
       <GraphDrawRainbow>0</GraphDrawRainbow>
-      <AudioTraceIDs>2 104 114 </AudioTraceIDs>
+      <AudioTraceIDs>3 104 113 116 </AudioTraceIDs>
       <GraphPlotDoubleYAxis>0</GraphPlotDoubleYAxis>
     </PageGraphCartesian>
     <PageHelperDataCurveFit>
       <ID>112 </ID>
       <BroadcastTo>0 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>3.40072984749 3.27555837742 4.72534984749 3.92951393298 </Bounds>
+      <Bounds>3.61797777778 1.5082 4.48704222222 2.0066 </Bounds>
       <SubordinateToID>106</SubordinateToID>
-      <SubordinateOffset>1.44662309368 3.26567901234</SubordinateOffset>
+      <SubordinateOffset>1.5 1.5</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
-      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0xffffffff</BackgroundColor>
+      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0x0</BackgroundColor>
       <AddNewData>0</AddNewData>
       <Locked>0</Locked>
       <AutoCreated>0</AutoCreated>
@@ -145,8 +145,8 @@
         <Name>Sans</Name>
         <Rotation>0</Rotation>
       </Font>
-      <GUIHelperRangeMin>0</GUIHelperRangeMin>
-      <GUIHelperRangeMax>9</GUIHelperRangeMax>
+      <GUIHelperRangeMin>0.00288</GUIHelperRangeMin>
+      <GUIHelperRangeMax>0.02132</GUIHelperRangeMax>
       <GUIHelperTraceColumnID>104</GUIHelperTraceColumnID>
       <GUIHelperBaseColumnID>102</GUIHelperBaseColumnID>
       <GUIHelperPrecision>4</GUIHelperPrecision>
@@ -154,23 +154,64 @@
       <GUIHelperMinimized>0</GUIHelperMinimized>
       <GUIHelperUseEntireRange>0</GUIHelperUseEntireRange>
       <GUIHelperUnderlyingHistogramFFTColumnID>0</GUIHelperUnderlyingHistogramFFTColumnID>
-      <CurveFitFunctionID>114</CurveFitFunctionID>
+      <CurveFitFunctionID>113</CurveFitFunctionID>
       <CurveFitColumnID>0</CurveFitColumnID>
-      <CurveFitError>1.46264344346</CurveFitError>
-      <CurveFitMethod>1</CurveFitMethod>
-      <CurveFitUncertainty>0</CurveFitUncertainty>
-      <ManualCurveFitIncrements>0 </ManualCurveFitIncrements>
-      <ManualCurveFitShowRMSE>1</ManualCurveFitShowRMSE>
+      <CurveFitError>0.100516947161</CurveFitError>
+      <CurveFitMethod>0</CurveFitMethod>
+      <CurveFitUncertainty>1</CurveFitUncertainty>
+      <ManualCurveFitIncrements>2 9.87 0.001 </ManualCurveFitIncrements>
+      <ManualCurveFitShowRMSE>0</ManualCurveFitShowRMSE>
+    </PageHelperDataCurveFit>
+    <PageHelperDataCurveFit>
+      <ID>115 </ID>
+      <BroadcastTo>0 </BroadcastTo>
+      <Visible>1</Visible>
+      <Bounds>4.36797777778 2.2582 5.23704222222 2.7566 </Bounds>
+      <SubordinateToID>106</SubordinateToID>
+      <SubordinateOffset>2.25 2.25</SubordinateOffset>
+      <BackgroundTransparent>0</BackgroundTransparent>
+      <BackgroundColor>0xffff 0xffff 0xffff| 0xffff 0x0</BackgroundColor>
+      <AddNewData>0</AddNewData>
+      <Locked>0</Locked>
+      <AutoCreated>0</AutoCreated>
+      <GraphLinkedIDs>0 </GraphLinkedIDs>
+      <YLinkedIDs>0 </YLinkedIDs>
+      <Font>
+        <Size> 9 </Size>
+        <Justification> 0 </Justification>
+        <VerticalJustification> 0 </VerticalJustification>
+        <Styles> 0 0 0 0 0 0 </Styles>
+        <Family> 3 </Family>
+        <Color>0x0 0x0 0x0| 0xffff 0x0</Color>
+        <Name>Sans</Name>
+        <Rotation>0</Rotation>
+      </Font>
+      <GUIHelperRangeMin>0.00288</GUIHelperRangeMin>
+      <GUIHelperRangeMax>0.02132</GUIHelperRangeMax>
+      <GUIHelperTraceColumnID>104</GUIHelperTraceColumnID>
+      <GUIHelperBaseColumnID>102</GUIHelperBaseColumnID>
+      <GUIHelperPrecision>4</GUIHelperPrecision>
+      <GUIHelperPrecisionDecimal>0</GUIHelperPrecisionDecimal>
+      <GUIHelperMinimized>0</GUIHelperMinimized>
+      <GUIHelperUseEntireRange>0</GUIHelperUseEntireRange>
+      <GUIHelperUnderlyingHistogramFFTColumnID>0</GUIHelperUnderlyingHistogramFFTColumnID>
+      <CurveFitFunctionID>116</CurveFitFunctionID>
+      <CurveFitColumnID>0</CurveFitColumnID>
+      <CurveFitError>0.0729286198964</CurveFitError>
+      <CurveFitMethod>0</CurveFitMethod>
+      <CurveFitUncertainty>1</CurveFitUncertainty>
+      <ManualCurveFitIncrements>2 9.1 0.1 </ManualCurveFitIncrements>
+      <ManualCurveFitShowRMSE>0</ManualCurveFitShowRMSE>
     </PageHelperDataCurveFit>
     <PageTable>
       <ID>107 </ID>
       <BroadcastTo>0 </BroadcastTo>
       <Visible>1</Visible>
-      <Bounds>0.00941176470588 0.00740952380951 1.9321459695 4.31481269841 </Bounds>
+      <Bounds>0.00615 0.00615 2.10362777778 4.31607222222 </Bounds>
       <SubordinateToID>0</SubordinateToID>
       <SubordinateOffset>0 0</SubordinateOffset>
       <BackgroundTransparent>0</BackgroundTransparent>
-      <BackgroundColor>0xdada 0xdada 0xdada| 0xffff 0xffffffff</BackgroundColor>
+      <BackgroundColor>0xdada 0xdada 0xdada| 0xffff 0x2a</BackgroundColor>
       <AddNewData>1</AddNewData>
       <Locked>0</Locked>
       <AutoCreated>0</AutoCreated>
@@ -186,9 +227,8 @@
         <Name>Sans</Name>
         <Rotation>0</Rotation>
       </Font>
-      <TableColumn> 102 0.669281045753 </TableColumn>
-      <TableColumn> 104 0.669281045753 </TableColumn>
-      <TableColumn> 110 0.669281045753 </TableColumn>
+      <TableColumn> 102 0.8 </TableColumn>
+      <TableColumn> 104 0.8 </TableColumn>
       <StartIndex> 0 </StartIndex>
       <DisplayBlackAndWhite> 0 </DisplayBlackAndWhite>
     </PageTable>
@@ -220,20 +260,20 @@
       <ID>102 </ID>
       <BroadcastTo>2 106 107 </BroadcastTo>
       <Visible>1</Visible>
-      <DataObjectName>Drop Height </DataObjectName>
-      <DataObjectShortName>x</DataObjectShortName>
-      <DataObjectColor>0x0 0x0 0x0| 0xffff 0x2e</DataObjectColor>
+      <DataObjectName>Mass</DataObjectName>
+      <DataObjectShortName>m</DataObjectShortName>
+      <DataObjectColor>0x0 0x0 0x0| 0xffff 0x0</DataObjectColor>
       <DataObjectDataSource>0</DataObjectDataSource>
       <DataObjectPrecisionDecimal>1</DataObjectPrecisionDecimal>
-      <DataObjectPrecision>0</DataObjectPrecision>
+      <DataObjectPrecision>5</DataObjectPrecision>
       <DataObjectAutomaticDecimal>1</DataObjectAutomaticDecimal>
       <DataObjectThickLines>0</DataObjectThickLines>
-      <ColumnUnits></ColumnUnits>
+      <ColumnUnits>kg</ColumnUnits>
       <ColumnProtected>0</ColumnProtected>
       <ColumnUserEditable>1</ColumnUserEditable>
       <ColumnTreatAsText>0</ColumnTreatAsText>
       <ColumnDataType>0</ColumnDataType>
-      <StartTime>1446688866</StartTime>
+      <StartTime>1447342698</StartTime>
       <TimeOfDayFormat>hh:mm:ss</TimeOfDayFormat>
       <ColumnGeoRole>n-a</ColumnGeoRole>
       <ColumnGeoDisplay>DD</ColumnGeoDisplay>
@@ -247,7 +287,7 @@
       <ColumnUseErrorCalculations>1</ColumnUseErrorCalculations>
       <ColumnErrorFixed>1</ColumnErrorFixed>
       <ColumnErrorConstant>1</ColumnErrorConstant>
-      <ColumnErrorValue>0.5</ColumnErrorValue>
+      <ColumnErrorValue>0.0005</ColumnErrorValue>
       <ColumnErrorColumnID>0</ColumnErrorColumnID>
       <ColumnForceScientific>0</ColumnForceScientific>
       <ColumnSensorColumn>0</ColumnSensorColumn>
@@ -266,33 +306,31 @@
       <ColumnLastDataCollectedMode>0</ColumnLastDataCollectedMode>
       <ColumnGroupID>103</ColumnGroupID>
       <ColumnCells>
-0
-2
-3
-4
-5
-6
-9
+0.0101
+0.0106
+0.0052
+0.02132
+0.00288
 </ColumnCells>
     </DataColumn>
     <DataColumn>
       <ID>104 </ID>
       <BroadcastTo>2 106 107 </BroadcastTo>
       <Visible>1</Visible>
-      <DataObjectName>Water Droplets Held</DataObjectName>
-      <DataObjectShortName>y</DataObjectShortName>
-      <DataObjectColor>0xffff 0x0 0x3333| 0xffff 0xffffffff</DataObjectColor>
+      <DataObjectName>Fg</DataObjectName>
+      <DataObjectShortName>Fg</DataObjectShortName>
+      <DataObjectColor>0xffff 0x0 0x3333| 0xffff 0x0</DataObjectColor>
       <DataObjectDataSource>0</DataObjectDataSource>
       <DataObjectPrecisionDecimal>1</DataObjectPrecisionDecimal>
-      <DataObjectPrecision>0</DataObjectPrecision>
+      <DataObjectPrecision>1</DataObjectPrecision>
       <DataObjectAutomaticDecimal>1</DataObjectAutomaticDecimal>
       <DataObjectThickLines>0</DataObjectThickLines>
-      <ColumnUnits></ColumnUnits>
+      <ColumnUnits>N</ColumnUnits>
       <ColumnProtected>0</ColumnProtected>
       <ColumnUserEditable>1</ColumnUserEditable>
       <ColumnTreatAsText>0</ColumnTreatAsText>
       <ColumnDataType>0</ColumnDataType>
-      <StartTime>1446688866</StartTime>
+      <StartTime>1447342698</StartTime>
       <TimeOfDayFormat>hh:mm:ss</TimeOfDayFormat>
       <ColumnGeoRole>n-a</ColumnGeoRole>
       <ColumnGeoDisplay>DD</ColumnGeoDisplay>
@@ -305,9 +343,9 @@
       <ColumnDisplayPPColumnID>0</ColumnDisplayPPColumnID>
       <ColumnUseErrorCalculations>1</ColumnUseErrorCalculations>
       <ColumnErrorFixed>1</ColumnErrorFixed>
-      <ColumnErrorConstant>0</ColumnErrorConstant>
-      <ColumnErrorValue>0</ColumnErrorValue>
-      <ColumnErrorColumnID>110</ColumnErrorColumnID>
+      <ColumnErrorConstant>1</ColumnErrorConstant>
+      <ColumnErrorValue>0.02</ColumnErrorValue>
+      <ColumnErrorColumnID>0</ColumnErrorColumnID>
       <ColumnForceScientific>0</ColumnForceScientific>
       <ColumnSensorColumn>0</ColumnSensorColumn>
       <ColumnSensorInputColumn>0</ColumnSensorInputColumn>
@@ -325,77 +363,16 @@
       <ColumnLastDataCollectedMode>0</ColumnLastDataCollectedMode>
       <ColumnGroupID>105</ColumnGroupID>
       <ColumnCells>
-41
-31
-31
-26
-20
-18
-5
-</ColumnCells>
-    </DataColumn>
-    <DataColumn>
-      <ID>110 </ID>
-      <BroadcastTo>2 104 107 </BroadcastTo>
-      <Visible>1</Visible>
-      <DataObjectName>Column</DataObjectName>
-      <DataObjectShortName>C</DataObjectShortName>
-      <DataObjectColor>0x0 0x0 0xffff| 0xffff 0xffffffff</DataObjectColor>
-      <DataObjectDataSource>0</DataObjectDataSource>
-      <DataObjectPrecisionDecimal>1</DataObjectPrecisionDecimal>
-      <DataObjectPrecision>1</DataObjectPrecision>
-      <DataObjectAutomaticDecimal>1</DataObjectAutomaticDecimal>
-      <DataObjectThickLines>0</DataObjectThickLines>
-      <ColumnUnits></ColumnUnits>
-      <ColumnProtected>0</ColumnProtected>
-      <ColumnUserEditable>1</ColumnUserEditable>
-      <ColumnTreatAsText>0</ColumnTreatAsText>
-      <ColumnDataType>0</ColumnDataType>
-      <StartTime>1446689490</StartTime>
-      <TimeOfDayFormat>hh:mm:ss</TimeOfDayFormat>
-      <ColumnGeoRole>n-a</ColumnGeoRole>
-      <ColumnGeoDisplay>DD</ColumnGeoDisplay>
-      <ColumnUserCreated>1</ColumnUserCreated>
-      <ColumnPPStyle>1</ColumnPPStyle>
-      <ColumnPPSize>2</ColumnPPSize>
-      <ColumnDisplayPPInterval>1</ColumnDisplayPPInterval>
-      <ColumnDisplayPPIntervalAuto>0</ColumnDisplayPPIntervalAuto>
-      <ColumnDisplayPPFromColumn>0</ColumnDisplayPPFromColumn>
-      <ColumnDisplayPPColumnID>0</ColumnDisplayPPColumnID>
-      <ColumnUseErrorCalculations>0</ColumnUseErrorCalculations>
-      <ColumnErrorFixed>1</ColumnErrorFixed>
-      <ColumnErrorConstant>1</ColumnErrorConstant>
-      <ColumnErrorValue>0</ColumnErrorValue>
-      <ColumnErrorColumnID>0</ColumnErrorColumnID>
-      <ColumnForceScientific>0</ColumnForceScientific>
-      <ColumnSensorColumn>0</ColumnSensorColumn>
-      <ColumnSensorInputColumn>0</ColumnSensorInputColumn>
-      <ColumnAllowUserDelete>1</ColumnAllowUserDelete>
-      <ColumnMatchTag></ColumnMatchTag>
-      <ColumnStartCollectTime>0</ColumnStartCollectTime>
-      <ColumnGenerateValues>0</ColumnGenerateValues>
-      <ColumnGenerateType>0</ColumnGenerateType>
-      <ColumnStart>1</ColumnStart>
-      <ColumnEnd>100</ColumnEnd>
-      <ColumnIncrement>1</ColumnIncrement>
-      <ColumnNameStart>0</ColumnNameStart>
-      <ColumnNumber>10</ColumnNumber>
-      <ColumnShowLiveReadout>0</ColumnShowLiveReadout>
-      <ColumnLastDataCollectedMode>0</ColumnLastDataCollectedMode>
-      <ColumnGroupID>111</ColumnGroupID>
-      <ColumnCells>
-6
-6
+1
+1
+0.5
 2
-4
-3
-3
-2
+0.2
 </ColumnCells>
     </DataColumn>
   </DataSet>
   <DataSet>
-    <ID>113 </ID>
+    <ID>109 </ID>
     <BroadcastTo>0 </BroadcastTo>
     <Visible>1</Visible>
     <DataSetName>&#38;&#38;^% CurveFitFunctions %^&#38;&#38;</DataSetName>
@@ -417,11 +394,11 @@
       </DataTag>
     </Metadata>
     <FunctionModel>
-      <ID>114 </ID>
+      <ID>110 </ID>
       <BroadcastTo>1 106 </BroadcastTo>
       <Visible>1</Visible>
-      <DataObjectName>m*x+b</DataObjectName>
-      <DataObjectShortName>Linear</DataObjectShortName>
+      <DataObjectName>mx+b</DataObjectName>
+      <DataObjectShortName>mx+b</DataObjectShortName>
       <DataObjectColor>0x0 0x0 0x0| 0xffff 0x2e</DataObjectColor>
       <DataObjectDataSource>0</DataObjectDataSource>
       <DataObjectPrecisionDecimal>0</DataObjectPrecisionDecimal>
@@ -433,8 +410,56 @@
       <FunctionModelString>m*x+b</FunctionModelString>
       <FunctionModelLinear>0</FunctionModelLinear>
       <FunctionModelType>1</FunctionModelType>
-      <FunctionCoefficientArray>2 -3.94382022472 40.9101123596 </FunctionCoefficientArray>
-      <FunctionCoefficientUncertaintyArray>2 0.205098502636 1.01370485131 </FunctionCoefficientUncertaintyArray>
+      <FunctionCoefficientArray>2 96.0321353132 -0.0222419958387 </FunctionCoefficientArray>
+      <FunctionCoefficientUncertaintyArray>2 3.36345135049 0.0399174315586 </FunctionCoefficientUncertaintyArray>
+      <FunctionModelInvalidDataFlags>0</FunctionModelInvalidDataFlags>
+      <FunctionModelParameterNames></FunctionModelParameterNames>
+      <FunctionModelTimeOffset>0</FunctionModelTimeOffset>
+      <FunctionModelTimeOffsetValue>0</FunctionModelTimeOffsetValue>
+    </FunctionModel>
+    <FunctionModel>
+      <ID>113 </ID>
+      <BroadcastTo>1 106 </BroadcastTo>
+      <Visible>1</Visible>
+      <DataObjectName>m1*m+b</DataObjectName>
+      <DataObjectShortName>Fit</DataObjectShortName>
+      <DataObjectColor>0x0 0x0 0x0| 0xffff 0x0</DataObjectColor>
+      <DataObjectDataSource>0</DataObjectDataSource>
+      <DataObjectPrecisionDecimal>0</DataObjectPrecisionDecimal>
+      <DataObjectPrecision>4</DataObjectPrecision>
+      <DataObjectAutomaticDecimal>0</DataObjectAutomaticDecimal>
+      <DataObjectThickLines>0</DataObjectThickLines>
+      <FunctionModelPower>1</FunctionModelPower>
+      <FunctionModelDegree>1</FunctionModelDegree>
+      <FunctionModelString>m*x+b</FunctionModelString>
+      <FunctionModelLinear>0</FunctionModelLinear>
+      <FunctionModelType>1</FunctionModelType>
+      <FunctionCoefficientArray>2 105 -0.15 </FunctionCoefficientArray>
+      <FunctionCoefficientUncertaintyArray>2 0 0 </FunctionCoefficientUncertaintyArray>
+      <FunctionModelInvalidDataFlags>0</FunctionModelInvalidDataFlags>
+      <FunctionModelParameterNames></FunctionModelParameterNames>
+      <FunctionModelTimeOffset>0</FunctionModelTimeOffset>
+      <FunctionModelTimeOffsetValue>0</FunctionModelTimeOffsetValue>
+    </FunctionModel>
+    <FunctionModel>
+      <ID>116 </ID>
+      <BroadcastTo>1 106 </BroadcastTo>
+      <Visible>1</Visible>
+      <DataObjectName>m1*m+b</DataObjectName>
+      <DataObjectShortName>Fit</DataObjectShortName>
+      <DataObjectColor>0x0 0x0 0x0| 0xffff 0x2e</DataObjectColor>
+      <DataObjectDataSource>0</DataObjectDataSource>
+      <DataObjectPrecisionDecimal>0</DataObjectPrecisionDecimal>
+      <DataObjectPrecision>4</DataObjectPrecision>
+      <DataObjectAutomaticDecimal>0</DataObjectAutomaticDecimal>
+      <DataObjectThickLines>0</DataObjectThickLines>
+      <FunctionModelPower>1</FunctionModelPower>
+      <FunctionModelDegree>1</FunctionModelDegree>
+      <FunctionModelString>m*x+b</FunctionModelString>
+      <FunctionModelLinear>0</FunctionModelLinear>
+      <FunctionModelType>1</FunctionModelType>
+      <FunctionCoefficientArray>2 91 0 </FunctionCoefficientArray>
+      <FunctionCoefficientUncertaintyArray>2 0 0 </FunctionCoefficientUncertaintyArray>
       <FunctionModelInvalidDataFlags>0</FunctionModelInvalidDataFlags>
       <FunctionModelParameterNames></FunctionModelParameterNames>
       <FunctionModelTimeOffset>0</FunctionModelTimeOffset>
@@ -510,7 +535,7 @@
       <GoogleMapsOpenAnnotations>0</GoogleMapsOpenAnnotations>
       <GoogleMapsDrawLine>0</GoogleMapsDrawLine>
       <GoogleMapsDrawLineSingleColor>0</GoogleMapsDrawLineSingleColor>
-      <GoogleMapsingleColor>0x0 0x0 0x0| 0xffff 0x2e</GoogleMapsingleColor>
+      <GoogleMapsingleColor>0x0 0x0 0x0| 0xffff 0x0</GoogleMapsingleColor>
       <GoogleMapsDrawLineColumnID>0</GoogleMapsDrawLineColumnID>
       <GoogleMapsDrawLineAutoScale>0</GoogleMapsDrawLineAutoScale>
       <GoogleMapsDrawLineSmooth>1</GoogleMapsDrawLineSmooth>
